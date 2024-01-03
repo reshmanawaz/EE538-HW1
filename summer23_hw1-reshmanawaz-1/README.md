@@ -1,7 +1,6 @@
 
 # HW1 EE538
 ## University of Southern California
-## Instructor: Arash Saifhashemi
 
 Please clone this repository, edit README.md to answer the questions, and fill up functions to finish the homework.
 
@@ -12,19 +11,6 @@ Please clone this repository, edit README.md to answer the questions, and fill u
   We will clone and test your repo using your tests and some other tests (that are not provided). Your code should pass all of them.
 - For submission, please push your answers to Github before the deadline.
 - Deadline: June 13th by 12:00 pm (noon)
-- Rubrics:
-  
-| Question | Points |
-| -------- | ------ |
-| 1        | 18     |
-| 2        | 18     |
-| 3        | 18     |
-| 4        | 18     |
-| 5        | 18     |
-| 6        | 18     |
-| 7        | 18     |
-
-- Total: 126 points. 100 points is considered full credit.
 
 
 See [cpp-template](https://github.com/ourarash/cpp-template) for help on installing bazel and debugging.
