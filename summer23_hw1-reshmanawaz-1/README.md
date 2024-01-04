@@ -13,28 +13,56 @@ Please clone this repository, edit README.md to answer the questions, and fill u
 - Deadline: June 13th by 12:00 pm (noon)
 
 
-See [cpp-template](https://github.com/ourarash/cpp-template) for help on installing bazel and debugging.
+## Question 1: 
 
-# Question
-- Please refer to [files](/files).
-- For each question, implement and test it in the [files](/files).
-- Write the runtime complexity of each question in this README file.
+ 1. Implement the following functions in q.cc.
+ 2. Write some unit tests for them in student_test.cc
 
-# Answers
-[TODO: Should be filled out with runtime complexity of each question with justification.]
+Reverse:
+Given a 􏰐vector, return its reversed rersion.
 
-- Question 1:
-  - Runtime: Reverse Function: The runtime complexity of this function would be O(n/2) as the for-loop iterates through half of the size of the vector. However, in Big-O notation, the constants factors are ignored therefore the complexity is O(n).
-  - Runtime: PlusOne Function: The runtime complexity of this function is O(n) where n is the size of the input vector as the for-loop iterates through the input vector and updates the element at the end. 
-- Question 2: 
-  - Runtime: IsPrime Function: The runtime complexity of this function is O(n) because the for-loop iterates n times. Therfore,the total time for the for loop to run is O(1)*n = O(n). 
-- Question 3: 
-  - Runtime: CountNumberOfSpaces Function: The runtime complexity of this function is O(n) where n is the size of the input string. The loop iterates through the entire string and the number of iterations is directly corresponding to the size of the string, therefore the complexity is O(n) where n is the size of the input string.   
-- Question 4: 
-  - Runtime: Flatten3DVector Function: This function has 3 nested for-loops inside one-another. Therefore, the time complexity of the first two dimensions is O(n*m) as the outter loop iterates so does the inner loop. Then adding the third dimension, the runtime complexity would be O(1*n*m).
-- Question 5:  
-  - Runtime: ClimbStairs Function: The runtime complexity of this function will be O(3^n) as this function is calling 3 recurisve calls within the if-loop. As the input size grows, the recursive calls will also grow exponentially. 
-- Question 6: 
-  - Runtime: Calculator Function: The runtime complexity here would be O(1) since there is only one if-else loop that is testing the ration (a/b) to assgin the corresponding error code. 
-- Question 7: 
-  - Runtime: CanBecome Function:
+Plus One:
+Given a positive integer represented by􏰒an array􏰒of digits, add one to that number. If the input 􏰏as invalid, (i.e. digits are not between 0 to 9), return 􏰓-1
+
+## Question 2: 
+
+ 1. Implement the following functions in q.cc.
+ 2. Write some unit tests for them in student_test.cc
+
+Write a function that returns true if the input number was prime and false otherwise.
+
+## Question 3: 
+
+ 1. Implement the following functions in q.cc.
+ 2. Write some unit tests for them in student_test.cc
+
+Write a function that returns the number of spaces in the given input string.
+
+## Question 4: 
+
+ 1. Implement the following functions in q.cc.
+ 2. Write some unit tests for them in student_test.cc
+    
+Write a function to flatten a 3D􏰐vector into a 1D vector.
+
+## Question 5: 
+
+ 1. Implement the following functions in q.cc.
+ 2. Write some unit tests for them in student_test.cc
+
+Given a non-negative integer n, calculate the number of distinct ways a person can climb to the top of a staircase. Your function should accept positive numbers less than 45 and return the number of ways. We define the rules of climbing the stairs as follows:
+
+You are climbing a staircase. Each time you can either climb 1 or 2 or 3 steps. It takes n steps to reach the top. Your function takes n as input.
+If there are 0 stairs, return 0. For negative input, please return -1.
+
+## Question 6: 
+ 1. Implement the following functions in q.cc.
+ 2. Write some unit tests for them in student_test.cc
+    
+Given two float values a and b, create a function in C++ that returns their sum, difference, product, and ratio (i.e., the result of dividing a by b). Use C++ references to return multiple values. The functions should return a value of type ErrorCode as a sign of success or failure
+
+## Question 7: 
+ 1. Implement the following functions in q.cc.
+ 2. Write some unit tests for them in student_test.cc
+
+Given two strings s and goal, create a function that returns true if and only if s can be transformed into goal after some number of left shifts on s. A shift on s consists of moving the leftmost character of s to the rightmost position. For example, if s is "abcde", then it will be "bcdea" after one shift.
