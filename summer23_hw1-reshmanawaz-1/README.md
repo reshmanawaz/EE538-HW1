@@ -22,7 +22,7 @@ Reverse:
 Given a vector, return its reversed rersion.
 
 Plus One:
-Given a positive integer represented by an array􏰒of digits, add one to that number. If the input as invalid, (i.e. digits are not between 0 to 9), return -1
+Given a positive integer represented by an array of digits, add one to that number. If the input as invalid, (i.e. digits are not between 0 to 9), return -1
 
 ## Question 2: 
 
@@ -43,7 +43,7 @@ Write a function that returns the number of spaces in the given input string.
  1. Implement the following functions in q.cc.
  2. Write some unit tests for them in student_test.cc
     
-Write a function to flatten a 3D􏰐vector into a 1D vector.
+Write a function to flatten a 3D vector into a 1D vector.
 
 ## Question 5: 
 
