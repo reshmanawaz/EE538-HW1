@@ -22,7 +22,7 @@ Reverse:
 Given a vector, return its reversed rersion.
 
 Plus One:
-Given a positive integer represented by􏰒an array􏰒of digits, add one to that number. If the input as invalid, (i.e. digits are not between 0 to 9), return -1
+Given a positive integer represented by an array􏰒of digits, add one to that number. If the input as invalid, (i.e. digits are not between 0 to 9), return -1
 
 ## Question 2: 
 
